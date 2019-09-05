@@ -9,6 +9,6 @@ class Anagram
   def match(array)
     matches = []
     @word.split("").sort
-    
+    matches
   end
 end
