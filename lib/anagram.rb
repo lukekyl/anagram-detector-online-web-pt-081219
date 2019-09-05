@@ -10,12 +10,10 @@ class Anagram
   def match(array)
     matches = []
     array.each{|word|
-    binding.pry
       if word.split("").sort == @word.split("").sort
         matches << word
-      
       end
-      matches
     }
+    matches
   end
 end
